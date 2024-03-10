@@ -1,0 +1,62 @@
+<section>
+  <h2>DADOS VIAGEM</h2>
+  <form method="GET">
+    <fieldset>
+      <legend>Reserva de viagem</legend>
+      <label>Nome</label><br />
+      <input type="text" name="NOME" /><br />
+      <label>Email</label><br />
+      <input type="email" name="EMAIL" /><br />
+    </fieldset>
+    <fieldset>
+      <legend>SERVIÇOS DESEJADOS</legend>
+      <label>
+        <br /><input type="checkbox" name="passagens" value="passagens" />Compra
+        de passagens <br />
+      </label>
+      <label>
+        <br /><input
+          type="checkbox"
+          name="reservaHospedagem"
+          value="reservaHospedagem"
+        />Reserva de Hospedagem <br />
+      </label>
+      <label>
+        <br /><input
+          type="checkbox"
+          name="aluguelVeiculos"
+          value="aluguelVeiculos"
+        />Aluguel de Veículos <br />
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>FORMA DE PAGAMENTO</legend>
+      <label>
+        <br />
+        <input type="radio" name="formaPagamento" value="Cartão de Crédito" />
+        Cartão de Crédito
+      </label>
+      <label>
+        <br />
+        <input type="radio" name="formaPagamento" value="Boleto" />Boleto
+        Bancário
+      </label>
+      <label>
+        <br />
+        <input type="radio" name="formaPagamento" value="PIX" />PIX
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>PRAZO DE PAGAMENTO</legend>
+      <select name="ParozoPagamento">
+        <option value="Avista">A Vista</option>
+        <option value="5x">5x Sem juros</option>
+        <option value="10x">10x Com juros</option>
+      </select>
+    </fieldset>
+
+    <input type="submit" name="Enviar">
+  </form>
+</section>
